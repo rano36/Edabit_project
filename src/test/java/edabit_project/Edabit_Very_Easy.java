@@ -13,5 +13,6 @@ public class Edabit_Very_Easy {
         int expected = 8;
         int result = Edabit_Very_Easy.increment(input);
         Assert.assertEquals(expected, result);
+        Assert.assertEquals(expected, result);  
     }
 }

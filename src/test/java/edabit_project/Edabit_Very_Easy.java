@@ -9,9 +9,9 @@ public class Edabit_Very_Easy {
     }
     @Test
     public void testIncrement() {
-        int input = 7;  // Пример входного числа
-        int expected = 8;  // Ожидаемый результат
-        int result = Edabit_Very_Easy.increment(input);  // Вызов функции
-        Assert.assertEquals(expected, result);  // Проверка, что результат совпадает с ожиданием
+        int input = 7;
+        int expected = 8;
+        int result = Edabit_Very_Easy.increment(input);
+        Assert.assertEquals(expected, result);  
     }
 }
